@@ -33,7 +33,7 @@ def contact(request):
             'year':datetime.now().year,
         })
     )
-
+import numpy as np
 def about(request):
     """Renders the about page."""
     assert isinstance(request, HttpRequest)
